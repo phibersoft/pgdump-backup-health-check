@@ -35,7 +35,7 @@ DB_PORT=5432
 Specify the path to your backup file in the script or pass it as an argument.
 
 ```bash
-bun run index.ts
+bun run index.ts /path/to/backup.sql
 ```
 
 ## Output
@@ -45,7 +45,7 @@ bun run index.ts
 
 ## Example Usage
 ```bash
-bun run index.ts
+bun run index.ts /path/to/backup.sql
 ```
 - If there are no issues, you’ll see:
 ```text
